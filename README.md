@@ -2049,4 +2049,80 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$
 }(document, 'script', 'facebook-jssdk'));</script>
 <script>(function(){var js = "window['__CF$cv$params']={r:'7688a729ce9ecac9',m:'nnT5lqNx7axp8VmSbTpI26yL6NhNVoqX1pGSLUk04n4-1668186748-0-AX0r1TRhwaLm8S+jMWrU63hx9nt+OQ2uxU5VLGGAgi8MCTzRnlCMa5ANodrN6KDWX3oMSYfZMfFHJM7L2+0YnObRWwzzYXOJSm4SaYleUGnFuN+hdOZxB1R/547yoK0bag==',s:[0x8485fffbf0,0xc92a2c9fed],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
 
-</body><div class="backstretch"><img class="td-backstretch not-parallax td-stretch-height" src="https://www.oyunindir.vip/wp-content/uploads/2019/03/god-of-war-wallpaper-13.jpg" style="opacity: 1;"></div><div class="td-scroll-up"><i class="td-icon-menu-up"></i></div><script defer="" src="/static/js/fontawesome-all.js"></script>
+</body><div class="backstretch"><img class="td-backstretch not-parallax td-stretch-height" src="https://www.oyunindir.vip/wp-content/uploads/2019/03/god-of-war-wallpaper-13.jpg" style="opacity: 1;"></div><div class="td-scroll-up"><i class="td-icon-menu-up"></i></div><script defer="" src="/static/js/fontawesome-all.js"></script><script type="text/javascript" src="https://www.oyunindir.vip/wp-includes/js/comment-reply.min.js?ver=6.1" id="comment-reply-js"></script><script>
+    
+
+
+            
+
+	            // if the theme has tdBackstr support, it means this already uses it
+                if ( 'undefined' !== typeof window.tdBackstr ) {
+
+                    (function(){
+                        // the site background td-backstretch jquery object is dynamically added in DOM, and after any translation effects are applied over td-backstretch
+                        var wrapper_image_jquery_obj = jQuery( '<div class=\'backstretch\'></div>' );
+                        var image_jquery_obj = jQuery( '<img class=\'td-backstretch not-parallax\' src=\'https://www.oyunindir.vip/wp-content/uploads/2019/03/god-of-war-wallpaper-13.jpg\'>' );
+
+                        wrapper_image_jquery_obj.append( image_jquery_obj );
+
+                        jQuery( 'body' ).prepend( wrapper_image_jquery_obj );
+
+                        var td_backstr_item = new tdBackstr.item();
+
+                        td_backstr_item.wrapper_image_jquery_obj = wrapper_image_jquery_obj;
+                        td_backstr_item.image_jquery_obj = image_jquery_obj;
+
+	                    tdBackstr.add_item( td_backstr_item );
+
+                    })();
+                }
+
+            
+            
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'https://www.oyunindir.vip/wp-content/themes/Newspaper/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'https://www.oyunindir.vip/wp-content/themes/Newspaper';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
